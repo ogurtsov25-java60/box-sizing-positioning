@@ -1,32 +1,47 @@
-.boxes {
+.rings {
     border: 3px solid red;
     position: relative;
     width: 500px;
     height: 500px;
-
+    background-color: lightgray;
+    text-align: center;
     
 }
-.box {
+
+.ring {
     width: 100px;
     height: 100px;
-    position: relative;
+    position: absolute;
+    border: 2px solid;
     border-radius: 50px;
 }
-.box-one {
-    background-color: red;
-    position: fixed;
-    
+.ring-one {
+    border-color: green;
+    top: 170px;
+    left: 100px;
 
 }
-.box-two {
-    background-color: gold;
-    left: 200px;
-    top: 250px;
-    z-index: -1;
-    position: absolute;
+.ring-two {
+    border-color: blue;
+    top:170px;
+    left:200px;
+    
 }
-.box-three {
-    background-color: green;
-    position: absolute;
-    left: 200px
+.ring-three {
+    border-color: red;
+    top:170px;
+    left: 300px
 }
+.ring-four {
+    border-color: blueviolet;
+    top:250px;
+    left: 150px;
+    z-index: 1;
+}
+.ring-fifth {
+    border-color: yellow;
+    top:250px;
+    left: 250px;
+    z-index: 1;
+}
+
