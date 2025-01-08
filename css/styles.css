@@ -1,47 +1,9 @@
-.rings {
-    border: 3px solid red;
-    position: relative;
-    width: 500px;
-    height: 500px;
-    background-color: lightgray;
+
+.text {
     text-align: center;
-    
 }
-
-.ring {
-    width: 100px;
-    height: 100px;
-    position: absolute;
-    border: 2px solid;
-    border-radius: 50px;
+.text-block {
+    display: inline-block;
+    width: 500px;
+    text-align: center;
 }
-.ring-one {
-    border-color: green;
-    top: 170px;
-    left: 100px;
-
-}
-.ring-two {
-    border-color: blue;
-    top:170px;
-    left:200px;
-    
-}
-.ring-three {
-    border-color: red;
-    top:170px;
-    left: 300px
-}
-.ring-four {
-    border-color: blueviolet;
-    top:250px;
-    left: 150px;
-    z-index: 1;
-}
-.ring-fifth {
-    border-color: yellow;
-    top:250px;
-    left: 250px;
-    z-index: 1;
-}
-
