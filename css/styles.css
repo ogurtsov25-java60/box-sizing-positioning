@@ -1,28 +1,43 @@
 
-.container {
+body {
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
+    width: 100vw;
     height: 100vh;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+.board {
+    display: flex;
+    flex-direction: column;
+   
+    
 
     
 }
-.box {
-    width: 100px;
-    height:100px;
-    background-color: gold;
-    border: 3px solid gray;
-    margin: 30px;
-    flex-grow: 0;
+.number {
+    display:inline-block;
+    width:70px;
+    text-align: center;
 }
-.box-one {
-    flex-grow: 1;
-    flex-shrink: 0;
+
+.row {
+display: flex;
+    flex-direction: row;
 }
-.box-two {
-    flex-grow: 0;
-    align-self: flex-end;
-    flex-shrink: 2;
+.cell {
+    width: 70px;
+    height: 70px;
+    border: 1px solid gray;
+    background-color: #fff8f8;
+    box-sizing: border-box;
+
 }
+.board div:nth-child(even) div:nth-child(odd) {
+    background-color: black;
+}
+.board div:nth-child(odd) div:nth-child(even) {
+    background-color: black;
+}
+
 
