@@ -1,38 +1,11 @@
-
-body {
-    display: flex;
-    width: 100vw;
-    height: 100vh;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
+html {
+    font-size: 62.5%;
 }
-.board {
-    display: flex;
-    flex-direction: column;
-   
-    
-
-    
-}
-
-.row {
-display: flex;
-    flex-direction: row;
-}
-.cell {
-    width: 70px;
-    height: 70px;
-    border: 1px solid gray;
-    background-color: #fff8f8;
+.box {
+    border: 3px solid orange;
+    /* 1 em = 16px */
+    font-size: 3rem;
+    width: 16em; 
+    height: 16em;
     box-sizing: border-box;
-
 }
-.board div:nth-child(even) div:nth-child(odd) {
-    background-color: black;
-}
-.board div:nth-child(odd) div:nth-child(even) {
-    background-color: black;
-}
-
-
