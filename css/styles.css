@@ -1,17 +1,19 @@
 html {
     font-size: 62.5%;
 }
-.box {
-    border: 3px solid orange;
-    /* 1 em = 16px */
-    font-size: 3rem;
-    width: 16em; 
-    height: 16em;
-    box-sizing: border-box;
-    /* *********** */
-    /* oveflow part is hidden */
-    /* overflow: hidden; */
-    /* ************** */
-    /* scrolling if there is ovetrflow */
-    overflow: auto;
+.gallery--item {
+    border: 4px solid lightgray;
+    border-radius: 40px;
+    width: 20rem;
+}
+.gallery--item_title {
+    display: block;
+    font-size: 2rem;
+    width: 20rem;
+    background-color: blue;
+    text-align: center;
+    color: aliceblue;
+}
+.gallery {
+    list-style: none;
 }
