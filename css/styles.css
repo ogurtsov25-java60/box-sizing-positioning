@@ -8,4 +8,10 @@ html {
     width: 16em; 
     height: 16em;
     box-sizing: border-box;
+    /* *********** */
+    /* oveflow part is hidden */
+    /* overflow: hidden; */
+    /* ************** */
+    /* scrolling if there is ovetrflow */
+    overflow: auto;
 }
