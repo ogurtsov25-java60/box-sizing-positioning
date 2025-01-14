@@ -2,9 +2,12 @@ html {
     font-size: 62.5%;
 }
 .gallery--item {
+    display: inline-block;
     border: 4px solid lightgray;
     border-radius: 40px;
     width: 20rem;
+    margin: 2px;
+    overflow:auto;
 }
 .gallery--item_title {
     display: block;
@@ -13,6 +16,7 @@ html {
     background-color: blue;
     text-align: center;
     color: aliceblue;
+    margin-top: -3px;
 }
 .gallery {
     list-style: none;
